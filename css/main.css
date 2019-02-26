@@ -1,6 +1,11 @@
+*, *:before, *:after 
+{
+    box-sizing: inherit;
+}
 
 html
 {
+    box-sizing: border-box;
     background-color: rgb(96, 144, 216);
 }
 
@@ -8,23 +13,34 @@ body
 {
     background-color: white;
     width: 80%;
-    padding: 5%;
+/*    padding: 5%;*/
     margin: 0 auto;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
     box-shadow: 0px 0px 10px;
-    border-bottom: 0.4em solid gold;
+    /* border-bottom: 0.5em solid gold; */
+    /* border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em; */
 }
+
+.content-wrap
+{
+    padding: 5%
+}
+
+
 
 nav ul
 {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-left: 2%;
+/*    margin-top: 1%;*/
     overflow: hidden;
     background-color: rgb(56, 56, 56);
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
+    /* position: -webkit-sticky; /* Safari */
+    /* position: sticky; */
+    position: fixed relative;
+    width: 100%;
     top: 0;
 }
 nav li {
@@ -49,12 +65,54 @@ nav li a:active {
 h1
 {
     font-family: Helvetica, Arial,  sans-serif;
+     margin:  0;  
+}
+h3
+{
+    margin-top: 0;
+}
+#profile
+{
+    margin-top: 0;
+    padding-top: 0;
+/*
+    align-items: center;
+    float: left;
+*/
+}
+
+#profile-image
+{
+    border-radius: 50%;
+    float: left;
+    overflow: visible;
+    width: 200px;
+    margin-right: 20px;    
 }
 p
 {    
     font-family: 'Times New Roman', Times, serif;
 }
 
+#work, .trabalhos
+{
+    background-color: #fff8ea;
+}
+
+footer
+{
+    text-align: center;
+}
+
+.btn
+{
+    text-decoration: none;
+    background: #EF233C;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+/*
 #botao_inutil
 {
     width: 90px;
@@ -71,10 +129,10 @@ p
 {
     width: 300px;
     height: 150px;
-    -webkit-transform: rotate(180deg); /* Safari */
+    -webkit-transform: rotate(180deg);  Safari 
     transform: rotate(180deg);    
 }
 #botao_inutil:active
 {
     background-color: red;    
-}
+}*/

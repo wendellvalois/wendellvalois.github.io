@@ -7,20 +7,61 @@
 <header role="banner">
     <nav role="navigation">
         <ul>
-            <li><a>Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a>Portfolio</a></li>
             <li><a>Blog</a></li>
             <li><a>Sobre</a></li>
-            <li><a>Curriculo</a></li>
-            <li><a>Contato</a></li>
+            <li><a href="#curriculo">Curriculo</a></li>
+            <li><a id="contato">Contato</a></li>
         </ul>
     
     </nav>
-    <h1>Olá mundo</h1>
-    <p>Meu nome é Wendell. Desenvolvedor, Gamer, Youtuber, fotógrafo e aspirante a ninja.</p>
+    <div class="content-wrap">
+<!--        <h1>Olá mundo, bem vindo a página de Wendell</h1>-->
+        <h1>Wendell Valois</h1>
+        <div id="profile">
+            <h3>Desenvolvedor</h3>
+            <img src="images/perfilweb.jpg" width="300px" alt="Imagem de perfil" id="profile-image">
+        </div>
+
+        <p>Olá, meu nome é Wendell. Sou desenvolvedor (geralmente web), Gamer, Youtuber, fotógrafo e aspirante a ninja.</p>
+        <p>Desculpa a bagunça, o site foi desenvolvido a pouco e ainda tem muito a ser feito. Espero que na próxima vez que entrar aqui este site esteja melhor e mais bonito</p>
+        <br><br><br>    
+    </div>
 </header>
-<p>Desculpa a bagunça, mas provável que na próxima vez que você entre aqui neste site vai ser um lugar mais bonito</p>
-    <p>Por enquanto fique com o botão abaixo que de nada serve. Foi tudo feito apenas com HTML e CSS</p>
-    <div id="botao_inutil">Botão</div>
+
+    
+    <main>
+        <section class="trabalhos content-wrap" id="curriculo">
+            <h2>Experiência</h2>
+            <h3> Estágio em desenvolvimento back-end</h3>
+            <p>
+                Desenvolvedor web na Atena Tecnologia, usando plataforma .Net
+            </p>
+            <h3> Estágio em desenvolvimento Full-stack</h3>
+            <p>
+                Desenvolvedor web na empresa Granduke Geomatics
+            </p>
+
+            <a href="Curriculo_Wendell.pdf" class="btn" download>Download Curriculo em PDF</a>
+        </section>
+    </main>
+
+    <!-- // Footer & contact info -->
+    <footer id="contato">
+        <div class="content-wrap">
+          <h2>Vamos manter contato!</h2>
+  
+          <!-- Social media links. Add or remove any networks. -->
+          <div class="contact-info">
+              <a href="mailto:wendell.valois@gmail.com">e-mail</a>
+              <!-- <a href="https://twitter.com/wendellvalois">Twitter</a> -->
+              <a href="https://www.linkedin.com/in/wendellvalois/">LinkedIn</a>
+              <!-- <a href="http://fb.me/wendellvalois">Facebook</a> -->
+          </div>
+  
+          <p>Copyright 2019 &copy by Wendell Valois</p>
+        </div>
+      </footer>
 </body>
 </html>
