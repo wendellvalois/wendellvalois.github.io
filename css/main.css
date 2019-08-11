@@ -20,6 +20,10 @@ body
     /* border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em; */
 }
+header
+{
+    position: relative;
+}
 
 .content-wrap
 {
@@ -97,6 +101,7 @@ p
 #work, .trabalhos
 {
     background-color: #fff8ea;
+    position: relative;
 }
 
 footer
@@ -111,6 +116,12 @@ footer
     color: white;
     padding: 10px;
     display: inline-block;
+}
+.download
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 /*
 #botao_inutil
