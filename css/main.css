@@ -123,6 +123,14 @@ footer
     bottom: 0;
     right: 0;
 }
+.btn-custom{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: #111 1px 1px 7px;
+    /* size: 100%; */    
+}
 /*
 #botao_inutil
 {
