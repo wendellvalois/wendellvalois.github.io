@@ -10,3 +10,10 @@ if (!localStorage.getItem("idSalesforce")) {
   localStorage.setItem("idSalesforce", idSalesforce);
   console.log(idSalesforce);
 }
+
+
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+ 'event': 'sfmc_id_send_custom_dimension',
+ 'sfmc_id': 1554566565
+ });
