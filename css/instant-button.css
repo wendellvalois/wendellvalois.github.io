@@ -6,6 +6,10 @@ instant-button {
 	background-image: var(--image-normal), radial-gradient(circle at 47px 44.5px, currentColor 0, currentColor 41px, transparent 42px), var(--image-shadow);
 }
 
+.vermelho {
+	color: red;
+}
+
 instant-button:active {
 	background-image: var(--image-pressed), radial-gradient(circle at 47px 44.5px, currentColor 0, currentColor 41px, transparent 42px), var(--image-shadow);
 }
